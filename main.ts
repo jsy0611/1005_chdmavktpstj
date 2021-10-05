@@ -39,6 +39,8 @@ basic.forever(function () {
 })
 // 거리 숫자나오면서
 // 값에 따라 소리출력
+// 
+// 소리는 p0
 basic.forever(function () {
     if (cm < 10) {
         music.playTone(262, 100)
